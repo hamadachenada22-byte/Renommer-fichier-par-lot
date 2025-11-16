@@ -22,7 +22,7 @@
   ## #5 Exécution du renammage 
   c’est l’étape où on applique effectivement les modifications (les nouveaux noms aux fichiers).
   > cette étape dépend de la partie #5.
-  # Fonctionnalités suuplémentaires:
+  # Fonctionnalités suplémentaires:
   ## #6 La génération d’un script d’annulation 
   Permet de récupérer l’ancien nom pour chaque fichier (avant le renommage).  
   >Cette étape dépend de la partie #5.
