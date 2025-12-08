@@ -3,7 +3,8 @@ Renommage de fichier par lot
 Les Bibliothèques utilisées dans notre projet 
 ----------------------------------------------
 1.shutil
-Nous avons utilisé shutil pour déplacer les fichiers du dossier source vers le dossier destination.
+Nous avons utilisé shutil pour déplacer les fichiers du dossier source vers le dossier destination. 
+
 La fonction shutil.move() nous a permis de renommer et déplacer les fichiers en même temps .
 
 2.pathlib
