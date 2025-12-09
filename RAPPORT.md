@@ -44,6 +44,7 @@ Script : essai10.py
 │   └─ console = Console()
 
 │
+
 ├── Fonction : afficher_fichiers(actions)
 
 │   ├─ Paramètre : liste de tuples (ancien_nom, nouveau_nom)
@@ -53,6 +54,7 @@ Script : essai10.py
 │   └─ Utilise rich.Table pour l’affichage
 
 │
+
 ├── Fonction : renommer(dossier_source, regex, replacement, dossier_destination)
 
 │   ├─ Convertit les chemins en objets Path
@@ -73,7 +75,6 @@ Script : essai10.py
 
 │
 └── Bloc MAIN : if __name__ == "__main__"
-
     ├─ Vérifie que 4 arguments sont fournis : dossier_source, pattern, replacement, dossier_destination
     
     └─ Appelle la fonction renommer() avec ces arguments et exécute
