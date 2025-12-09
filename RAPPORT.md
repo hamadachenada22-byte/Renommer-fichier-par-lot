@@ -6,8 +6,6 @@ Les Bibliothèques utilisées dans notre projet
 
 Nous avons utilisé shutil pour déplacer les fichiers du dossier source vers le dossier destination. 
 
-La fonction
-
 shutil.move() nous a permis de renommer et déplacer les fichiers en même temps .
 
 2.pathlib
