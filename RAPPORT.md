@@ -22,6 +22,7 @@ Nous avons utilisé re pour les expressions régulières, ce qui nous a permis d
 Par exemple, renommer tous les .jpeg en .png avec une seule ligne grâce à re.sub().
 
 4.sys
+
 La bibliothèque sys nous a servi à récupérer les arguments que l’utilisateur passe quand il lance le script dans le terminal.
 Comme ça, nous pouvons choisir le dossier source, la regex, le nouveau nom et le dossier destination .
 
@@ -35,17 +36,21 @@ Structure de code
 ------------------
 Script : essai10.py
 ├── Import des bibliothèques citées auparavant 
+
 │  
 │
 ├── Initialisation de la console Rich
 │   └─ console = Console()
+
 │
 ├── Fonction : afficher_fichiers(actions)
+
 │   ├─ Paramètre : liste de tuples (ancien_nom, nouveau_nom)
 │   ├─ Affiche un tableau avec les anciens et nouveaux noms
 │   └─ Utilise rich.Table pour l’affichage
 │
 ├── Fonction : renommer(dossier_source, regex, replacement, dossier_destination)
+
 │   ├─ Convertit les chemins en objets Path
 │   ├─ Crée le dossier de destination s'il n'existe pas
 │   ├─ Recherche fichiers correspondant à la regex
@@ -56,6 +61,7 @@ Script : essai10.py
 │   └─ Déplace et renomme les fichiers avec shutil.move()
 │
 └── Bloc MAIN : if __name__ == "__main__"
+
     ├─ Vérifie que 4 arguments sont fournis : dossier_source, pattern, replacement, dossier_destination
     └─ Appelle la fonction renommer() avec ces arguments et exécute
 
