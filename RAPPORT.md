@@ -73,10 +73,11 @@ Script : essai10.py
 
 │   └─ Déplace et renomme les fichiers avec shutil.move()
 
+
 │
-└── Bloc MAIN : if __name__ == "__main__"
+└──
+Bloc MAIN : if __name__ == "__main__"
     ├─ Vérifie que 4 arguments sont fournis : dossier_source, pattern, replacement, dossier_destination
-    
     └─ Appelle la fonction renommer() avec ces arguments et exécute
     
 
