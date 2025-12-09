@@ -40,30 +40,44 @@ Script : essai10.py
 │  
 │
 ├── Initialisation de la console Rich
+
 │   └─ console = Console()
 
 │
 ├── Fonction : afficher_fichiers(actions)
 
 │   ├─ Paramètre : liste de tuples (ancien_nom, nouveau_nom)
+
 │   ├─ Affiche un tableau avec les anciens et nouveaux noms
+
 │   └─ Utilise rich.Table pour l’affichage
+
 │
 ├── Fonction : renommer(dossier_source, regex, replacement, dossier_destination)
 
 │   ├─ Convertit les chemins en objets Path
+
 │   ├─ Crée le dossier de destination s'il n'existe pas
+
 │   ├─ Recherche fichiers correspondant à la regex
+
 │   ├─ Applique le renommage avec re.sub()
+
 │   ├─ Gère les collisions de noms (_1, _2, etc.)
+
 │   ├─ Affiche le tableau via afficher_fichiers()
+
 │   ├─ Demande confirmation à l’utilisateur
+
 │   └─ Déplace et renomme les fichiers avec shutil.move()
+
 │
 └── Bloc MAIN : if __name__ == "__main__"
 
     ├─ Vérifie que 4 arguments sont fournis : dossier_source, pattern, replacement, dossier_destination
+    
     └─ Appelle la fonction renommer() avec ces arguments et exécute
+    
 
 Comment exécuter le script
 --------------------------
