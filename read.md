@@ -63,8 +63,7 @@ Le script s’exécute depuis un terminal ou une invite de commandes. Il prend q
 ```bash
 python essai10.py <dossier_source> <pattern_regex> <remplacement> <dossier_destination>
 
-exemple : python essai10.py "C:/Users/Hamadache Nada/Pictures/Screenshots" "(.*)\.png" "\1.jpeg" "C:/tmp/photo/"
-
+exemple : python essai10.py ( "C:/Users/Hamadache Nada/Pictures/Screenshots" "(.*)\.png" "\1.jpeg" "C:/tmp/photo/")
 le dossier source contient des images au format PNG,
 
 l’expression régulière (.*)\.png permet de sélectionner tous les fichiers avec l’extension .png,
