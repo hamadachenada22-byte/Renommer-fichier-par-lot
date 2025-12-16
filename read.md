@@ -57,17 +57,16 @@ if __name__ == "__main__":
 
 ---
 
-##  Répartition du travail au sein du groupe
+##  Répartition du travail 
 
-
-### HAMADACHE NADA
+### HAMADACHE Nada
 
 * Renommage et move avec la fonction def renommer_deplacer
 * Applique les modifications avec def applique action  
 * Gestion des arguments de la ligne de commande
 * Vérification des erreurs
 
-### OUHOCINE FATIMA
+### OUHOCINE Fatima
 
 * Recherche et filtrage des fichiers avec def  collecter_fichier
 * Gestion des conflits de noms avec def generer_nom_unique
