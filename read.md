@@ -65,6 +65,7 @@ if __name__ == "__main__":
 * Applique les modifications avec def applique action  
 * Gestion des arguments de la ligne de commande
 * Vérification des erreurs
+* Gère les arguments, vérifie les dossiers et applique les actions
 
 ### OUHOCINE Fatima
 
@@ -72,7 +73,7 @@ if __name__ == "__main__":
 * Gestion des conflits de noms avec def generer_nom_unique
 * Gestion des arguments de la ligne de commande
 * Vérification des erreurs
-
+* Gère les arguments, vérifie les dossiers et applique les actions
 
   
 ##  Utilisation en ligne de commande
