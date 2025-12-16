@@ -64,6 +64,7 @@ Le script s’exécute depuis un terminal ou une invite de commandes. Il prend q
 python essai10.py <dossier_source> <pattern_regex> <remplacement> <dossier_destination>
 
 exemple : python essai10.py "C:/Users/Hamadache Nada/Pictures/Screenshots" "(.*)\.png" "\1.jpeg" "C:/tmp/photo/"
+
 le dossier source contient des images au format PNG,
 
 l’expression régulière (.*)\.png permet de sélectionner tous les fichiers avec l’extension .png,
@@ -73,6 +74,9 @@ le remplacement \1.jpeg conserve le nom du fichier et change uniquement l’exte
 le dossier de destination est C:/tmp/photo/.
 
 Avant d’appliquer les modifications, le script affiche la liste des fichiers concernés et demande une confirmation à l’utilisateur.
+
+
+---
 
 ##  Répartition du travail au sein du groupe
 
