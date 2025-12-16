@@ -56,6 +56,26 @@ if __name__ == "__main__":
 ```
 
 ---
+
+##  Répartition du travail au sein du groupe
+
+
+### HAMADACHE NADA
+
+* Renommage et move avec la fonction def renommer_deplacer
+* Applique les modifications avec def applique action  
+* Gestion des arguments de la ligne de commande
+* Vérification des erreurs
+
+### OUHOCINE FATIMA
+
+* Recherche et filtrage des fichiers avec def  collecter_fichier
+* Gestion des conflits de noms avec def generer_nom_unique
+* Gestion des arguments de la ligne de commande
+* Vérification des erreurs
+
+
+  
 ##  Utilisation en ligne de commande
 
 Le script s’exécute depuis un terminal ou une invite de commandes. Il prend quatre arguments :
@@ -77,20 +97,5 @@ Avant d’appliquer les modifications, le script affiche la liste des fichiers c
 
 ---
 
-##  Répartition du travail au sein du groupe
 
-
-### HAMADACHE NADA
-
-* Renommage et move avec la fonction def renommer_deplacer
-* Applique les modifications avec def applique action  
-* Gestion des arguments de la ligne de commande
-* Vérification des erreurs
-
-### OUHOCINE FATIMA
-
-* Recherche et filtrage des fichiers avec def  collecter_fichier
-* Gestion des conflits de noms avec def generer_nom_unique
-* Gestion des arguments de la ligne de commande
-* Vérification des erreurs
 
